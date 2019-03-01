@@ -31,14 +31,14 @@
         />
 
     <Button
-        android:id="@+id/Button2"
+        android:id="@+id/button2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
         android:layout_marginEnd="108dp"
         android:layout_marginBottom="148dp"
-        android:text="PROJECTS_LIST" />
+        android:text="ROUTE MAP" />
 
     <Button
         android:id="@+id/button3"
@@ -48,7 +48,7 @@
         android:layout_alignParentBottom="true"
         android:layout_marginEnd="118dp"
         android:layout_marginBottom="205dp"
-        android:text="ROUTE_MAP" />
+        android:text="PROJECTS_LIST" />
 
     <Button
         android:id="@+id/button4"
