@@ -82,7 +82,7 @@ public class MainActivity extends AppCompatActivity
         int id = item.getItemId();
 
         if (id == R.id.abtdept) {
-            Intent i1=new Intent(MainActivity.this,ScrollingActivity.class);
+            Intent i1=new Intent(MainActivity.this,Main2Activity.class);
             startActivity(i1);
 
             // Handle the camera action
