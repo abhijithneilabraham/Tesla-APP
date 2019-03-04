@@ -7,7 +7,11 @@ import android.os.Bundle;
 import android.transition.Scene;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ArrayAdapter;
 import android.widget.Button;
+import android.widget.ListView;
+
+import java.util.ArrayList;
 
 public class MainActivity extends AppCompatActivity {
 //Button b2,b3,b4,b5;
@@ -19,19 +23,15 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-
-        final Button button = findViewById(R.id.button1);
-        button.setOnClickListener(new View.OnClickListener() {
-            public void onClick(View v) {
-                //setContentView(R.layout.activity_main2);
-                Intent i1=new Intent(MainActivity.this,Main2Activity.class);
-                startActivity(i1);
+        final ListView listView=findViewById(R.id.list1);
+        String[] values=new String[] {"About Department","TESLA","EEE study materials","Route MAP"};
 
 
-
-
-            }
-        });
+// Create the adapter to convert the array to views
+        ArrayAdapter adapter = new ArrayAdapter(this,R.layout.activity_main2, values);
+// Attach the adapter to a ListView
+        ListView list1 = (ListView) findViewById(R.id.list1);
+        listView.setAdapter(adapter);
 
     }
 }

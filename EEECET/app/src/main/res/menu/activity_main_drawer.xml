@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/abtdept"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="About Department" />
+        <item
+            android:id="@+id/tesla"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="TESLA" />
+        <item
+            android:id="@+id/routemap"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Route Map" />
+        <item
+            android:id="@+id/studymat"
+            android:icon="@drawable/ic_menu_send"
+            android:title="Study Materials" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Contact Details" />
+
+        </menu>
+    </item>
+
+</menu>
