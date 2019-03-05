@@ -17,7 +17,6 @@
             android:layout_marginTop="0dp"
             android:src="@drawable/slide2"
             android:contentDescription="@string/action_settings"/>
-
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -29,8 +28,27 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:text="@string/about"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
             android:text="@string/ee"
             />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/facilities"
+            android:gravity="center_horizontal"
+            android:layout_gravity="center_horizontal"
+            android:text="Facilities"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/contact"
+            android:layout_gravity="center_horizontal"
+            android:text="Contact Us"/>
 
 
     </LinearLayout>
