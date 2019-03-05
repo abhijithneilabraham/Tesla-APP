@@ -13,11 +13,10 @@
     <ImageView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentStart="false"
-        android:layout_alignParentTop="false"
         android:layout_marginStart="0dp"
         android:layout_marginTop="0dp"
-        android:src="@drawable/slide2" />
+        android:src="@drawable/slide2"
+        android:contentDescription="@string/action_settings"/>
 
         <TextView
             android:layout_width="match_parent"
@@ -25,15 +24,14 @@
             android:gravity="center_horizontal"
             android:scaleY="30dp"
             android:shadowColor="@color/design_default_color_primary_dark"
-            android:text="About department"
+            android:text="@string/about_department"
             android:textColor="@color/design_default_color_primary_dark"
-            android:textSize="40dp" />
+            android:textSize="40sp" />
 
-        <ImageView
-            android:layout_width="421dp"
-            android:layout_height="wrap_content"
-            android:src="@drawable/slide2" />
-
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="@string/ee"/>
 
 
     </LinearLayout>
