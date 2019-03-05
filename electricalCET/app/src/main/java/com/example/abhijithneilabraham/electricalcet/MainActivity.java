@@ -89,7 +89,10 @@ public class MainActivity extends AppCompatActivity
         } else if (id == R.id.tesla) {
 
 
+
         } else if (id == R.id.routemap) {
+            Intent i2=new Intent(MainActivity.this,Main5Activity.class);
+            startActivity(i2);
 
         }
 
