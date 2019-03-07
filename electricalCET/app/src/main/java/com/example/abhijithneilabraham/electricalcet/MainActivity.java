@@ -87,7 +87,8 @@ public class MainActivity extends AppCompatActivity
 
             // Handle the camera action
         } else if (id == R.id.tesla) {
-
+            Intent i2=new Intent(MainActivity.this,Main6Activity.class);
+            startActivity(i2);
 
 
         } else if (id == R.id.routemap) {
