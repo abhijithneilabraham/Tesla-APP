@@ -1,2 +1,2 @@
-An app for department fest
-trying to use apache cordova
+An app for department fest tesla
+trying to use android studio and java
